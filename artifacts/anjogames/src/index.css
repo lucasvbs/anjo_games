@@ -122,6 +122,12 @@
   text-wrap: balance;
 }
 
+@media (max-height: 700px) {
+  .hero-scroll-indicator {
+    display: none;
+  }
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
