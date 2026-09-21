@@ -1,0 +1,206 @@
+# COPY — SITE INSTITUCIONAL ANJOGAMES
+
+**Modo:** adaptado (institucional/causa social — sem venda direta, com 4 ações de conversão paralelas: doar/apoiar, patrocínio PJ, voluntariado, contato geral via WhatsApp)
+
+---
+
+## 1. HEADLINE PRINCIPAL
+
+**Variação A — ângulo de propósito (favorita, usada na subheadline abaixo)**
+> Aqui, o e-sport também forma cidadãos
+
+**Variação B — ângulo de comunidade**
+> A casa de quem joga por um propósito
+
+**Variação C — ângulo de prova concreta**
+> De campeonato a oportunidade real de vida
+
+---
+
+## 2. SUBHEADLINE
+
+> A ANJOGAMES é uma associação sem fins lucrativos que transforma paixão por games em cidadania, cultura, renda e oportunidade para jovens em todo o Brasil.
+
+---
+
+## 3. ABERTURA / PROPOSTA DE VALOR
+
+Enquanto muita gente ainda pergunta se e-sport é "coisa séria", a ANJOGAMES já responde isso desde 2014: com campeonatos, festivais e projetos sociais registrados, organizados e prestando contas de verdade.
+
+Não é só torneio. É formação, inclusão e renda para quem mais precisa — usando o jogo como ponte, não como fuga.
+
+Hoje, isso acontece através de projetos como o Geek Day Festival, a Cerrado Cup, o Renova Tech, o Festival Next Level e a Missão Inclusiva — além do apoio ao Capital Game Show 2026.
+
+Você pode fazer parte disso apoiando financeiramente, levando sua marca pra dentro desse universo, ou colocando a mão na massa como voluntário.
+
+---
+
+## 4. CTA PRIMÁRIO (acima da dobra)
+
+**Variação 1 — ação direta**
+Três botões lado a lado (empilhados no mobile):
+- `Quero apoiar` → rota para doação
+- `Quero patrocinar` → rota para parceria PJ
+- `Quero ser voluntário` → rota para cadastro de voluntariado
+
+Micro-copy embaixo: *"Associação registrada desde 2014 • Prestação de contas pública"*
+
+**Variação 2 — benefício**
+- `Fazer parte da mudança` (doação)
+- `Levar minha marca pra esse universo` (patrocínio)
+- `Colocar a mão na massa` (voluntariado)
+
+Micro-copy embaixo: *"Fale com a gente agora no WhatsApp"* → link direto `wa.me`
+
+---
+
+## 5. IDENTIFICAÇÃO DA DOR
+
+Muita gente quer apoiar uma causa social, mas trava antes de tirar o cartão ou assinar a parceria.
+
+- Você já doou pra alguma "causa" e nunca soube pra onde foi o dinheiro?
+- Sua empresa quer aparecer perto de uma pauta jovem e engajada, mas não sabe por onde começar sem parecer oportunista?
+- Você acha que "e-sport" é só hobby de adolescente e não enxerga isso como transformação social de verdade?
+- Você quer ser voluntário, mas tem medo de virar só mais um nome numa planilha que ninguém acompanha?
+- Você joga, mas nunca teve uma porta de entrada pra competir ou trabalhar com isso de forma séria?
+
+---
+
+## 6. APRESENTAÇÃO DA SOLUÇÃO
+
+A ANJOGAMES resolve isso com o que chamamos de **Modelo ANJOGAMES de E-esporte com Propósito**: cada campeonato, festival ou projeto é desenhado pra gerar impacto social mensurável — direitos humanos, cidadania, cultura, saúde, educação e geração de renda — e não só entretenimento.
+
+Isso é formalizado: a ANJOGAMES é uma organização civil sem fins lucrativos, com estatuto público, registrada desde 10 de junho de 2014, que não distribui excedentes entre associados ou diretores — todo recurso volta pro objeto social.
+
+---
+
+## 7. BENEFÍCIOS (não features)
+
+- Seu apoio financeiro vira campeonato, festival ou projeto de verdade — não fica parado numa conta.
+- Sua marca aparece exatamente onde o público jovem e gamer já está prestando atenção.
+- Você entra pra história de projetos como o Geek Day Festival e a Cerrado Cup, não só assiste de fora.
+- Seu tempo como voluntário vira oportunidade real na vida de um jovem — não só uma tarde "de boa ação".
+- Você tem transparência de associação formalizada, não promessa vaga de rede social.
+- Se você é gamer, encontra uma estrutura séria pra competir, aprender ou crescer — não só mais um grupo de WhatsApp.
+
+---
+
+## 8. PROVA SOCIAL
+
+**Projetos reais em execução (cases, não depoimentos):**
+- Geek Day Festival
+- Cerrado Cup
+- Renova Tech
+- Festival Next Level
+- Missão Inclusiva
+- Apoio ao Capital Game Show 2026
+
+**Números de destaque:**
+`[INSERIR NÚMERO — ex: jovens atendidos, edições realizadas, cidades alcançadas desde 2014]`
+
+**Depoimentos:**
+`[INSERIR DEPOIMENTO — associado, parceiro ou jovem atendido, com nome e resultado específico]`
+`[INSERIR LOGOS — de parceiros/patrocinadores já confirmados, se houver]`
+
+*Nada acima foi inventado além dos nomes de projeto informados — números e depoimentos precisam ser levantados antes de publicar.*
+
+---
+
+## 9. OFERTA (escopo de cada forma de apoio)
+
+**Doar / apoiar financeiramente**
+- Contribuição única ou recorrente, destinada aos projetos em andamento.
+- Prestação de contas anual, conforme Art. 29 do estatuto (normas contábeis, certidões negativas, auditoria quando aplicável).
+- `[INSERIR — recibo, nota, dedução fiscal se aplicável, valores sugeridos]`
+
+**Patrocínio PJ**
+- Sua marca associada a projetos específicos (ex: Cerrado Cup, Capital Game Show 2026).
+- `[INSERIR — pacotes/cotas de patrocínio, contrapartidas de exposição de marca]`
+- Formalizado via termo de parceria/convênio, como previsto no estatuto.
+
+**Voluntariado**
+- Cadastro → entrevista/alinhamento → alocação em projeto ativo conforme perfil.
+- `[INSERIR — carga horária esperada, se precisa de experiência prévia com games]`
+
+**Contato geral**
+- Fale direto no WhatsApp pra tirar dúvida antes de decidir como quer apoiar.
+
+---
+
+## 10. QUEBRA DE OBJEÇÕES
+
+**Mas e-sport é coisa séria mesmo?**
+Sério o suficiente pra virar associação formalizada há mais de 10 anos, com campeonatos, festivais e projetos sociais estruturados — e não só torneio de fim de semana. O jogo é a porta de entrada; cidadania, renda e inclusão são o resultado.
+
+**Mas meu dinheiro/patrocínio vai pra onde de verdade?** `(objeção provável, não confirmada pelo cliente — validar antes de publicar)`
+A ANJOGAMES é uma OSCIP: não distribui excedente entre associados ou diretores, presta contas anualmente e segue normas contábeis formais. Todo recurso volta pro projeto.
+
+**Mas será que isso realmente ajuda alguém?** `(objeção provável, não confirmada pelo cliente — validar antes de publicar)`
+`[INSERIR — resultado concreto de algum projeto: quantas pessoas participaram, o que mudou]`
+
+---
+
+## 11. GARANTIA (institucional, não reembolso)
+
+- Associação civil sem fins lucrativos, registrada desde 2014, com estatuto público.
+- Nenhum associado, diretor ou colaborador lucra individualmente com os recursos — previsto no próprio estatuto.
+- Prestação de contas anual, com normas contábeis e certidões negativas (INSS/FGTS).
+- Parcerias formalizadas por termo de convênio ou contrato — nada informal.
+
+---
+
+
+
+## 13. FAQ
+
+**A ANJOGAMES é uma organização registrada de verdade?**
+Sim, associação civil sem fins lucrativos desde 10/06/2014, com estatuto público e sede em Taguatinga/DF.
+
+**Minha doação ou patrocínio é dedutível de imposto?**
+`[INSERIR RESPOSTA — depende do enquadramento fiscal vigente]`
+
+**Preciso ser gamer pra ser voluntário?**
+`[INSERIR — se sim/não, e que tipo de perfil vocês buscam]`
+
+**Como sei que o dinheiro chegou no projeto certo?**
+A prestação de contas é anual e pública, seguindo as normas contábeis do estatuto (Art. 29).
+
+**Quais projetos meu apoio financia hoje?**
+Geek Day Festival, Cerrado Cup, Renova Tech, Festival Next Level, Missão Inclusiva e o apoio ao Capital Game Show 2026.
+
+**Como funciona o patrocínio pra empresa?**
+`[INSERIR — processo comercial, cotas, prazos]`
+
+**Tem algum compromisso mínimo de tempo pro voluntariado?**
+`[INSERIR]`
+
+**Como falo com vocês antes de decidir?**
+Direto pelo WhatsApp, sem compromisso.
+
+---
+
+## 14. CTA FINAL
+
+Cada campeonato, festival e projeto da ANJOGAMES só existe porque alguém decidiu apoiar antes de acontecer. Você pode ser essa pessoa hoje — doando, patrocinando ou colocando a mão na massa.
+
+- `Quero apoiar agora`
+- `Quero levar minha marca junto`
+- `Quero ser voluntário`
+- `Falar no WhatsApp`
+
+---
+
+## 15. PS / FECHAMENTO
+
+PS: a ANJOGAMES não promete "mudar o mundo" — ela mostra, projeto por projeto, desde 2014, que e-sport também forma cidadão. Cada campeonato, festival e projeto novo só sai do papel com quem decide apoiar, patrocinar ou entrar como voluntário antes dele acontecer.
+
+---
+
+## NOTAS TÉCNICAS
+
+- **LGPD** — todo formulário (doação, patrocínio, voluntariado) precisa de checkbox de consentimento + link pra política de privacidade.
+- **Claims** — sinalizar antes de publicar: números de jovens/pessoas atendidas, resultados de projetos, dedutibilidade fiscal de doações. Sem prova documentada, usar linguagem segura em vez de afirmação categórica.
+- **Tracking** — Meta Pixel + GA4. Eventos de conversão separados por CTA: `Lead-Doacao`, `Lead-Patrocinio`, `Lead-Voluntariado`, `Lead-WhatsApp`. Thank-you page por fluxo, disparando o Pixel correspondente. UTM no link `wa.me`.
+- **Estrutura da página** — above the fold: headline + subheadline + os 3 botões de ação + micro-copy de confiança (registrada desde 2014). CTA repetido no mínimo 3x: acima da dobra, após prova social (bloco 8) e no CTA final (bloco 14).
+
+---

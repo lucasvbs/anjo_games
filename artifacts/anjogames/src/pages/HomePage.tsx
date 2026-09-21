@@ -1,0 +1,27 @@
+import { Hero } from '@/components/sections/Hero';
+import { Mission } from '@/components/sections/Mission';
+import { Projects } from '@/components/sections/Projects';
+import { Financials } from '@/components/sections/Financials';
+import { FAQ } from '@/components/sections/FAQ';
+import { FinalCTA } from '@/components/sections/FinalCTA';
+import { Navbar } from '@/components/layout/Navbar';
+import { Footer } from '@/components/layout/Footer';
+
+export default function HomePage() {
+  return (
+    <div className="min-h-screen bg-background text-foreground flex flex-col font-sans selection:bg-primary selection:text-primary-foreground">
+      <Navbar />
+      
+      <main className="flex-1">
+        <Hero />
+        <Mission />
+        <Projects />
+        <Financials />
+        <FAQ />
+        <FinalCTA />
+      </main>
+
+      <Footer />
+    </div>
+  );
+}

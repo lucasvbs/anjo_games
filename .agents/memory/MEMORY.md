@@ -1,0 +1,1 @@
+- [AnjoGames content provenance](anjogames-content.md) — Drive photos lack project mapping; copy placeholders are not verified claims.
