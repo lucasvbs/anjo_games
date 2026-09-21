@@ -15,6 +15,7 @@ export type Project = {
   description: string;
   image: string;
   tags: string[];
+  isLogo?: boolean;
   documentUrl?: string; // For transparency
 };
 
@@ -23,30 +24,34 @@ export const PROJECTS: Project[] = [
     id: 'geek-day',
     title: 'Geek Day Festival',
     description: 'Um dos maiores festivais de cultura geek e e-sports, promovendo entretenimento, palestras, competições e integração social de forma acessível.',
-    image: '/images/evento-28.jpg',
+    image: '/images/logo-geek-day.jpeg',
     tags: ['Festival', 'Cultura', 'E-sport'],
+    isLogo: true,
   },
   {
     id: 'cerrado-cup',
     title: 'Cerrado Cup',
     description: 'Competição que fomenta o cenário de e-sports na região, revelando talentos e profissionalizando equipes locais com infraestrutura de ponta.',
-    image: '/images/evento-6.jpg',
+    image: '/images/logo-cerrado-cup.jpeg',
     tags: ['Competição', 'Oportunidade', 'Regional'],
+    isLogo: true,
   },
   {
     id: 'renova-tech',
     title: 'Renova Tech',
     description: 'Projeto social voltado à inclusão digital e capacitação tecnológica para jovens em situação de vulnerabilidade, utilizando os games como porta de entrada.',
-    image: '/images/evento-10.jpg',
+    image: '/images/logo-renovatech.jpeg',
     tags: ['Inclusão', 'Capacitação', 'Social'],
+    isLogo: true,
     documentUrl: '/images/Transparencia_renovatech_1789947615560.jpg'
   },
   {
     id: 'next-level',
     title: 'Festival Next Level',
     description: 'Evento de celebração da cultura gamer com foco em educação e novas profissões no mercado de jogos digitais e tecnologia.',
-    image: '/images/evento-3.jpg',
+    image: '/images/logo-next-level.jpeg',
     tags: ['Educação', 'Carreira', 'Games'],
+    isLogo: true,
   },
   {
     id: 'missao-inclusiva',
