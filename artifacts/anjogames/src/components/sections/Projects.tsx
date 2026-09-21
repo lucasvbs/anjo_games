@@ -43,7 +43,9 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         <img 
           src={project.image} 
           alt="Registro do acervo AnjoGames" 
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            className={`w-full h-full transition-transform duration-700 group-hover:scale-105 ${
+              project.isLogo ? 'object-contain p-4 bg-background' : 'object-cover'
+            }`}
         />
         <div className="absolute top-4 left-4 z-20 flex flex-wrap gap-2">
           {project.tags.map(tag => (
@@ -77,7 +79,13 @@ function ProjectDetailsDialog({ project }: { project: Project }) {
       <DialogContent className="max-w-3xl bg-card border-border p-0 overflow-hidden gap-0">
         <div className="h-64 relative">
           <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent z-10" />
-          <img src={project.image} alt="Registro do acervo AnjoGames" className="w-full h-full object-cover" />
+          <img
+            src={project.image}
+            alt="Registro do acervo AnjoGames"
+            className={`w-full h-full ${
+              project.isLogo ? 'object-contain p-6 bg-background' : 'object-cover'
+            }`}
+          />
           <Badge className="absolute top-6 left-6 z-20 bg-primary text-primary-foreground pointer-events-none">
             {project.tags[0]}
           </Badge>
