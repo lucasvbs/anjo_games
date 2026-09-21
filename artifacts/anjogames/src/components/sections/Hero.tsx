@@ -100,7 +100,7 @@ export function Hero() {
         initial={{ opacity: 0 }} 
         animate={{ opacity: 1 }} 
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 text-muted-foreground"
+        className="hero-scroll-indicator absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 text-muted-foreground pointer-events-none"
       >
         <span className="text-xs uppercase tracking-widest font-mono">Descubra</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-muted-foreground to-transparent" />
