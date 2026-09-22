@@ -6,7 +6,6 @@ import { Button } from '@/components/ui/button';
 
 export function Financials() {
   const projectsWithDocs = PROJECTS.filter(p => p.documentUrl);
-  const projectsWithoutDocs = PROJECTS.filter(p => !p.documentUrl);
 
   return (
     <section className="py-24 md:py-32 bg-background relative overflow-hidden" id="transparencia">
@@ -98,21 +97,6 @@ export function Financials() {
                   </div>
                 </div>
 
-                {/* Unavailable docs */}
-                <div>
-                  <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-4 border-b border-border pb-2">Documentos Pendentes</h4>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {projectsWithoutDocs.map(project => (
-                      <div key={project.id} className="flex items-center justify-between p-3 rounded-xl border border-border/50 bg-secondary/20">
-                        <span className="text-sm font-medium opacity-70">{project.title}</span>
-                        <span className="text-xs px-2 py-1 bg-background rounded-md text-muted-foreground border border-border font-mono">Documento ainda não disponibilizado</span>
-                      </div>
-                    ))}
-                  </div>
-                  <p className="text-xs text-muted-foreground mt-4 text-center">
-                    A prestação de contas de alguns projetos ainda não foi disponibilizada online. As atualizações serão publicadas nesta página conforme disponibilização.
-                  </p>
-                </div>
               </div>
             </motion.div>
           </div>
