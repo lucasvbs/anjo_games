@@ -16,6 +16,7 @@ export type Project = {
   image: string;
   tags: string[];
   isLogo?: boolean;
+  badgeLabel?: string;
   documentUrl?: string; // For transparency
 };
 
@@ -53,6 +54,7 @@ export const PROJECTS: Project[] = [
     image: '/images/logo-next-level.jpeg',
     tags: ['Educação', 'Carreira', 'Games'],
     isLogo: true,
+    badgeLabel: 'Festival',
     documentUrl: '/images/transparencia-next-level.jpeg',
   },
   {
