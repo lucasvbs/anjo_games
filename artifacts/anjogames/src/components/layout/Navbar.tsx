@@ -6,6 +6,8 @@ import { CONFIG } from '@/data/content';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
+const PORTAL_URL = 'https://portalanjogames.bubbleapps.io/version-test';
+
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -62,6 +64,15 @@ export function Navbar() {
               </li>
             ))}
           </ul>
+          <a
+            href={PORTAL_URL}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Abrir Portal Online em uma nova aba"
+            className="inline-flex items-center gap-2 rounded-full border border-primary/60 px-5 py-2.5 text-sm font-bold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+          >
+            Portal Online <ArrowUpRight className="h-4 w-4" />
+          </a>
           <Dialog>
             <DialogTrigger asChild>
               <Button className="rounded-full font-bold px-6">
@@ -105,6 +116,15 @@ export function Navbar() {
                     {link.name}
                   </a>
                 ))}
+                <a
+                  href={PORTAL_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Abrir Portal Online em uma nova aba"
+                  className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/60 px-5 py-3 text-lg font-bold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                >
+                  Portal Online <ArrowUpRight className="h-5 w-5" />
+                </a>
               </nav>
               <div className="pb-8">
                 <Dialog>
