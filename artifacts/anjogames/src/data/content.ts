@@ -35,6 +35,7 @@ export const PROJECTS: Project[] = [
     image: '/images/logo-cerrado-cup.jpeg',
     tags: ['Competição', 'Oportunidade', 'Regional'],
     isLogo: true,
+    documentUrl: '/images/transparencia-cerrado-cup.jpeg'
   },
   {
     id: 'renova-tech',
@@ -57,15 +58,18 @@ export const PROJECTS: Project[] = [
     id: 'missao-inclusiva',
     title: 'Missão Inclusiva',
     description: 'Iniciativa dedicada a democratizar o acesso aos e-sports para pessoas com deficiência, adaptando controles e promovendo torneios inclusivos.',
-    image: '/images/evento-9.jpg',
+    image: '/images/logo-missao-inclusiva.jpeg',
     tags: ['Acessibilidade', 'Inclusão', 'E-sport'],
+    isLogo: true,
+    documentUrl: '/images/transparencia-missao-inclusiva.jpeg'
   },
   {
     id: 'capital-game-show',
     title: 'Capital Game Show 2026',
     description: 'Apoio institucional ao grande evento que colocará a capital no mapa global dos e-sports, com infraestrutura, campeonatos internacionais e fomento ao turismo e tecnologia.',
-    image: '/images/evento-4.jpg',
+    image: '/images/logo-capital-game-show.jpeg',
     tags: ['Apoio', 'Mega Evento', 'Internacional'],
+    isLogo: true,
   }
 ];
 
