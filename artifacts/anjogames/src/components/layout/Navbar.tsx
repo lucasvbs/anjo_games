@@ -41,7 +41,11 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 group">
+        <Link
+          href="/"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="flex items-center gap-3 group"
+        >
           <img 
             src="/images/angelGames_logo-03_1789946604574.png" 
             alt="AnjoGames Logo" 
