@@ -53,6 +53,7 @@ export const PROJECTS: Project[] = [
     image: '/images/logo-next-level.jpeg',
     tags: ['Educação', 'Carreira', 'Games'],
     isLogo: true,
+    documentUrl: '/images/transparencia-next-level.jpeg',
   },
   {
     id: 'missao-inclusiva',
