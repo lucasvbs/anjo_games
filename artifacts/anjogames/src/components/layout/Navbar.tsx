@@ -19,6 +19,7 @@ export function Navbar() {
 
   const navLinks = [
     { name: 'Projetos', href: '#projetos' },
+    { name: 'Galeria', href: '#galeria' },
     { name: 'Transparência', href: '#transparencia' },
     { name: 'FAQ', href: '#faq' },
   ];
