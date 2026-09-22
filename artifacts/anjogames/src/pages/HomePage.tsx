@@ -1,6 +1,7 @@
 import { Hero } from '@/components/sections/Hero';
 import { Mission } from '@/components/sections/Mission';
 import { Projects } from '@/components/sections/Projects';
+import { Gallery } from '@/components/sections/Gallery';
 import { Financials } from '@/components/sections/Financials';
 import { FAQ } from '@/components/sections/FAQ';
 import { FinalCTA } from '@/components/sections/FinalCTA';
@@ -16,6 +17,7 @@ export default function HomePage() {
         <Hero />
         <Mission />
         <Projects />
+        <Gallery />
         <Financials />
         <FAQ />
         <FinalCTA />
