@@ -87,7 +87,7 @@ function ProjectDetailsDialog({ project }: { project: Project }) {
             }`}
           />
           <Badge className="absolute top-6 left-6 z-20 bg-primary text-primary-foreground pointer-events-none">
-            {project.tags[0]}
+            {project.badgeLabel ?? project.tags[0]}
           </Badge>
         </div>
         
