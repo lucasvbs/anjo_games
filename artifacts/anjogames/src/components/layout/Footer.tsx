@@ -1,5 +1,6 @@
 import { Link } from 'wouter';
 import { ArrowUpRight } from 'lucide-react';
+import { FaEnvelope, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { CONFIG } from '@/data/content';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
@@ -51,7 +52,8 @@ export function Footer() {
             <nav className="flex flex-col gap-3">
               <Dialog>
                 <DialogTrigger asChild>
-                  <button className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 w-max">
+                  <button className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-2 w-max">
+                    <FaWhatsapp aria-hidden="true" className="h-4 w-4 shrink-0 text-primary" />
                     WhatsApp <ArrowUpRight className="h-3 w-3" />
                   </button>
                 </DialogTrigger>
@@ -64,13 +66,16 @@ export function Footer() {
                   </div>
                 </DialogContent>
               </Dialog>
-              <a href={`mailto:${CONFIG.email}`} className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 w-max">
+              <a href={`mailto:${CONFIG.email}`} className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-2 w-max">
+                <FaEnvelope aria-hidden="true" className="h-4 w-4 shrink-0 text-primary" />
                 {CONFIG.email} <ArrowUpRight className="h-3 w-3" />
               </a>
-              <a href={CONFIG.social.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 w-max">
+              <a href={CONFIG.social.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-2 w-max">
+                <FaInstagram aria-hidden="true" className="h-4 w-4 shrink-0 text-primary" />
                 Instagram <ArrowUpRight className="h-3 w-3" />
               </a>
-              <a href={CONFIG.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 w-max">
+              <a href={CONFIG.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-2 w-max">
+                <FaLinkedinIn aria-hidden="true" className="h-4 w-4 shrink-0 text-primary" />
                 LinkedIn <ArrowUpRight className="h-3 w-3" />
               </a>
             </nav>
