@@ -18,7 +18,7 @@ export function Mission() {
               Enquanto muita gente ainda pergunta se e-sport é "coisa séria"...
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed text-balance">
-              A ANJOGAMES já responde isso desde 2014: com campeonatos, festivais e projetos sociais registrados, organizados e prestando contas de verdade. Não é só torneio. <strong className="text-foreground font-semibold">É formação, inclusão e renda para quem mais precisa — usando o jogo como ponte, não como fuga.</strong>
+              A ANJOGAMES já responde isso desde 2014: com campeonatos, festivais e projetos sociais registrados, organizados e prestando contas de verdade. Não é só torneio. <strong className="text-foreground font-semibold">É formação, inclusão e novas oportunidades para quem mais precisa — usando o jogo como ponte, não como fuga.</strong>
             </p>
           </motion.div>
         </div>
@@ -75,7 +75,7 @@ export function Mission() {
                   O Modelo AnjoGames
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Cada campeonato ou festival é desenhado para gerar impacto social mensurável — direitos humanos, cidadania, cultura, saúde, educação e renda.
+                  Cada campeonato ou festival é desenhado para gerar impacto social mensurável — direitos humanos, cidadania, cultura, saúde, educação e oportunidades.
                 </p>
               </div>
             </div>
