@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { CONFIG } from '@/data/content';
-import { Heart, Briefcase, Users, MessageCircle, Info } from 'lucide-react';
+import { Heart, Briefcase, Users, Mail } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 
 export function FinalCTA() {
@@ -44,7 +44,6 @@ export function FinalCTA() {
               }
               title="Apoie os Projetos"
               description="Vamos conversar sobre como sua doação pode impulsionar as próximas iniciativas."
-              whatsappMessage="Olá! Quero apoiar os projetos da AnjoGames."
             />
             
             <ContactDialog 
@@ -55,7 +54,6 @@ export function FinalCTA() {
               }
               title="Patrocínio PJ"
               description="Apoie com sua empresa e receba o Mídia Kit dos nossos projetos."
-              whatsappMessage="Olá! Gostaria de receber o Mídia Kit para patrocínio empresarial."
             />
             
             <ContactDialog 
@@ -66,18 +64,16 @@ export function FinalCTA() {
               }
               title="Voluntariado"
               description="Ofereça seu tempo e habilidades. Precisamos de pessoas engajadas."
-              whatsappMessage="Olá! Quero me candidatar como voluntário na AnjoGames."
             />
             
             <ContactDialog 
               trigger={
                 <Button size="lg" className="w-full h-16 text-base font-bold rounded-2xl bg-black text-white hover:bg-black/80 group">
-                  <MessageCircle className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" /> Falar no WhatsApp
+                  <Mail className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" /> Falar por e-mail
                 </Button>
               }
               title="Fale com a Equipe"
               description="Tire suas dúvidas diretamente com quem faz os projetos acontecerem."
-              whatsappMessage=""
             />
           </motion.div>
         </div>
@@ -89,16 +85,12 @@ export function FinalCTA() {
 function ContactDialog({ 
   trigger, 
   title, 
-  description, 
-  whatsappMessage 
+  description
 }: { 
   trigger: React.ReactNode, 
   title: string, 
-  description: string, 
-  whatsappMessage: string
+  description: string
 }) {
-  const wpUrl = `${CONFIG.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
-  
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -112,14 +104,11 @@ function ContactDialog({
           </DialogDescription>
         </DialogHeader>
         <div className="py-6 flex flex-col gap-4">
-          <div className="bg-secondary/50 rounded-lg p-4 border border-border">
-            <p className="text-sm text-muted-foreground flex items-start gap-2">
-              <Info className="text-primary mt-0.5 h-4 w-4 shrink-0" />
-              <span>Canal de contato em atualização. Retorne em breve para falar com nossa equipe.</span>
-            </p>
-          </div>
-          <Button disabled size="lg" className="w-full font-bold h-14 bg-primary/50 text-primary-foreground opacity-100 cursor-not-allowed">
-            Em atualização
+          <p className="text-sm text-muted-foreground">
+            Fale diretamente com nossa equipe pelo e-mail {CONFIG.email}.
+          </p>
+          <Button asChild size="lg" className="w-full font-bold h-14">
+            <a href={`mailto:${CONFIG.email}`}>Enviar e-mail</a>
           </Button>
         </div>
       </DialogContent>
