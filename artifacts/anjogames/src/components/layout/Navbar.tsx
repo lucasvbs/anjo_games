@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'wouter';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { Menu, ArrowUpRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { CONFIG } from '@/data/content';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -88,10 +88,10 @@ export function Navbar() {
                 <DialogTitle className="text-2xl font-serif">Fale Conosco</DialogTitle>
               </DialogHeader>
               <div className="py-4">
-                <p className="text-muted-foreground">Canal de contato em atualização. Retorne em breve para falar com nossa equipe.</p>
+                <p className="text-muted-foreground">Fale diretamente com nossa equipe pelo e-mail {CONFIG.email}.</p>
               </div>
-              <Button disabled className="w-full font-bold bg-primary/50 text-primary-foreground opacity-100 cursor-not-allowed">
-                Em atualização
+              <Button asChild className="w-full font-bold">
+                <a href={`mailto:${CONFIG.email}`}>Enviar e-mail</a>
               </Button>
             </DialogContent>
           </Dialog>
@@ -142,10 +142,10 @@ export function Navbar() {
                       <DialogTitle className="text-2xl font-serif">Fale Conosco</DialogTitle>
                     </DialogHeader>
                     <div className="py-4">
-                      <p className="text-muted-foreground">Canal de contato em atualização. Retorne em breve para falar com nossa equipe.</p>
+                      <p className="text-muted-foreground">Fale diretamente com nossa equipe pelo e-mail {CONFIG.email}.</p>
                     </div>
-                    <Button disabled className="w-full font-bold bg-primary/50 text-primary-foreground opacity-100 cursor-not-allowed">
-                      Em atualização
+                    <Button asChild className="w-full font-bold">
+                      <a href={`mailto:${CONFIG.email}`}>Enviar e-mail</a>
                     </Button>
                   </DialogContent>
                 </Dialog>
