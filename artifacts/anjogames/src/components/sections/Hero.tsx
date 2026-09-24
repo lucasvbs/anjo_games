@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { CONFIG } from '@/data/content';
 import { Heart, Briefcase, Users } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
+import { DonationQrCode } from '@/components/sections/DonationQrCode';
 
 export function Hero() {
   const container: Variants = {
@@ -62,6 +63,7 @@ export function Hero() {
               }
               title="Faça parte da mudança"
               description="Sua contribuição financeira vira campeonato, festival e projeto de verdade. Não fica parada numa conta."
+              showDonationQr
             />
 
             {/* Patrocinar */}
@@ -106,11 +108,13 @@ export function Hero() {
 function ContactDialog({ 
   trigger, 
   title, 
-  description
+  description,
+  showDonationQr = false
 }: { 
   trigger: React.ReactNode, 
   title: string, 
-  description: string
+  description: string,
+  showDonationQr?: boolean
 }) {
   return (
     <Dialog>
@@ -125,6 +129,7 @@ function ContactDialog({
           </DialogDescription>
         </DialogHeader>
         <div className="py-6 flex flex-col gap-4">
+          {showDonationQr && <DonationQrCode />}
           <p className="text-sm text-muted-foreground">
             Fale diretamente com nossa equipe pelo e-mail {CONFIG.email}.
           </p>
