@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { CONFIG } from '@/data/content';
 import { Heart, Briefcase, Users, Mail } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
+import { DonationQrCode } from '@/components/sections/DonationQrCode';
 
 export function FinalCTA() {
   return (
@@ -44,6 +45,7 @@ export function FinalCTA() {
               }
               title="Apoie os Projetos"
               description="Vamos conversar sobre como sua doação pode impulsionar as próximas iniciativas."
+              showDonationQr
             />
             
             <ContactDialog 
@@ -85,11 +87,13 @@ export function FinalCTA() {
 function ContactDialog({ 
   trigger, 
   title, 
-  description
+  description,
+  showDonationQr = false
 }: { 
   trigger: React.ReactNode, 
   title: string, 
-  description: string
+  description: string,
+  showDonationQr?: boolean
 }) {
   return (
     <Dialog>
@@ -104,6 +108,7 @@ function ContactDialog({
           </DialogDescription>
         </DialogHeader>
         <div className="py-6 flex flex-col gap-4">
+          {showDonationQr && <DonationQrCode />}
           <p className="text-sm text-muted-foreground">
             Fale diretamente com nossa equipe pelo e-mail {CONFIG.email}.
           </p>
