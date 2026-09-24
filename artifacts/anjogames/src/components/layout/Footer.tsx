@@ -27,7 +27,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-muted-foreground max-w-sm text-balance">
-              Associação sem fins lucrativos que transforma paixão por games em cidadania, cultura, renda e oportunidade para jovens em todo o Brasil. Registrada desde 2014.
+              Associação sem fins lucrativos que transforma paixão por games em cidadania, cultura e oportunidades para jovens em todo o Brasil. Registrada desde 2014.
             </p>
           </div>
 
@@ -64,21 +64,9 @@ export function Footer() {
                   </div>
                 </DialogContent>
               </Dialog>
-              <Dialog>
-                <DialogTrigger asChild>
-                  <button className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 w-max">
-                    E-mail <ArrowUpRight className="h-3 w-3" />
-                  </button>
-                </DialogTrigger>
-                <DialogContent className="sm:max-w-md bg-card border-border">
-                  <DialogHeader>
-                    <DialogTitle className="text-2xl font-serif">E-mail</DialogTitle>
-                  </DialogHeader>
-                  <div className="py-4">
-                    <p className="text-muted-foreground">Canal de contato em atualização. Retorne em breve.</p>
-                  </div>
-                </DialogContent>
-              </Dialog>
+              <a href={`mailto:${CONFIG.email}`} className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 w-max">
+                {CONFIG.email} <ArrowUpRight className="h-3 w-3" />
+              </a>
               <a href={CONFIG.social.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 w-max">
                 Instagram <ArrowUpRight className="h-3 w-3" />
               </a>
