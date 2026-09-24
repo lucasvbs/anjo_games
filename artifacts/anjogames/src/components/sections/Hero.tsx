@@ -1,7 +1,7 @@
 import { motion, type Variants } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { CONFIG } from '@/data/content';
-import { Heart, Briefcase, Users, ArrowRight, Info } from 'lucide-react';
+import { Heart, Briefcase, Users } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 
 export function Hero() {
@@ -49,7 +49,7 @@ export function Hero() {
           </motion.h1>
 
           <motion.p variants={item} className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl text-balance">
-            A ANJOGAMES é uma associação sem fins lucrativos que transforma paixão por games em cidadania, cultura, renda e oportunidade para jovens em todo o Brasil.
+            A ANJOGAMES é uma associação sem fins lucrativos que transforma paixão por games em cidadania, cultura e oportunidades para jovens em todo o Brasil.
           </motion.p>
 
           <motion.div variants={item} className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
@@ -62,8 +62,6 @@ export function Hero() {
               }
               title="Faça parte da mudança"
               description="Sua contribuição financeira vira campeonato, festival e projeto de verdade. Não fica parada numa conta."
-              actionText="Falar sobre doação no WhatsApp"
-              whatsappMessage="Olá! Gostaria de entender como posso apoiar financeiramente os projetos da AnjoGames."
             />
 
             {/* Patrocinar */}
@@ -75,8 +73,6 @@ export function Hero() {
               }
               title="Leve sua marca para este universo"
               description="Associe sua empresa a projetos reais e de impacto. Temos pacotes de cotas para eventos como o Capital Game Show 2026."
-              actionText="Solicitar Mídia Kit"
-              whatsappMessage="Olá! Tenho interesse em patrocinar os eventos da AnjoGames e gostaria de receber o Mídia Kit."
             />
 
             {/* Voluntariado */}
@@ -88,8 +84,6 @@ export function Hero() {
               }
               title="Coloque a mão na massa"
               description="Seu tempo vira oportunidade real na vida de um jovem. Buscamos perfis de todas as áreas, não precisa ser gamer."
-              actionText="Quero me cadastrar"
-              whatsappMessage="Olá! Gostaria de saber mais sobre como posso atuar como voluntário na AnjoGames."
             />
           </motion.div>
         </motion.div>
@@ -112,18 +106,12 @@ export function Hero() {
 function ContactDialog({ 
   trigger, 
   title, 
-  description, 
-  actionText, 
-  whatsappMessage 
+  description
 }: { 
   trigger: React.ReactNode, 
   title: string, 
-  description: string, 
-  actionText: string,
-  whatsappMessage: string
+  description: string
 }) {
-  const wpUrl = `${CONFIG.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
-  
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -137,14 +125,11 @@ function ContactDialog({
           </DialogDescription>
         </DialogHeader>
         <div className="py-6 flex flex-col gap-4">
-          <div className="bg-secondary/50 rounded-lg p-4 border border-border">
-            <p className="text-sm text-muted-foreground flex items-start gap-2">
-              <Info className="text-primary mt-0.5 h-4 w-4 shrink-0" />
-              <span>Canal de contato em atualização. Retorne em breve para falar com nossa equipe.</span>
-            </p>
-          </div>
-          <Button disabled size="lg" className="w-full font-bold h-14 bg-primary/50 text-primary-foreground opacity-100 cursor-not-allowed">
-            Em atualização
+          <p className="text-sm text-muted-foreground">
+            Fale diretamente com nossa equipe pelo e-mail {CONFIG.email}.
+          </p>
+          <Button asChild size="lg" className="w-full font-bold h-14">
+            <a href={`mailto:${CONFIG.email}`}>Enviar e-mail</a>
           </Button>
         </div>
       </DialogContent>
