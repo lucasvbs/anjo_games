@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 export const CONFIG = {
   whatsapp: '', // Honest unavailable state
-  email: '',
+  email: 'oscanjogames@gmail.com',
   social: {
     instagram: 'https://instagram.com/anjogames',
     linkedin: 'https://linkedin.com/company/anjogames'
