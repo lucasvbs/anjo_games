@@ -62,7 +62,7 @@ export function Hero() {
                 </Button>
               }
               title="Faça parte da mudança"
-              description="Sua contribuição financeira vira campeonato, festival e projeto de verdade. Não fica parada numa conta."
+              description="Sua contribuição financeira vira campeonato, festival e projeto de verdade (impulsiona as próximas iniciativas)."
               showDonationQr
             />
 
