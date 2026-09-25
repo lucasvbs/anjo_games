@@ -10,7 +10,7 @@ const links = [
   },
   {
     label: 'Formulário de inscrição de expositores',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe53Fllg6yvL7Yd3SS-N-DE7t_UKwGwxrLw2G05jvRUNZvLw/viewform',
+    href: 'https://forms.gle/nMYo9mogUmE91it36',
   },
 ];
 
