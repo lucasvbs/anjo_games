@@ -1,4 +1,5 @@
 import { Hero } from '@/components/sections/Hero';
+import { CantaCerrado } from '@/components/sections/CantaCerrado';
 import { Mission } from '@/components/sections/Mission';
 import { Projects } from '@/components/sections/Projects';
 import { Gallery } from '@/components/sections/Gallery';
@@ -15,6 +16,7 @@ export default function HomePage() {
       
       <main className="flex-1">
         <Hero />
+        <CantaCerrado />
         <Mission />
         <Projects />
         <Gallery />
